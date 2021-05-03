@@ -2,12 +2,12 @@ h1{
     color: cornflowerblue;
 }
 
-img{
+li img{
     width: 400px;
 }
 #thirdDiv{
-    height: 600px;
     width: 500px;
+    height: 600px;
     background-color: cornflowerblue;
     padding: 50px;
     border: black 2px;
