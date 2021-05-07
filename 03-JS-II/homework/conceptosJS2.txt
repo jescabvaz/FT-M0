@@ -1,0 +1,26 @@
+CONCEPTOS
+* `for`
+Es un ciclo que se utiliza la cantidad de veces que requieras repetir una instruccion.
+
+* `&&`
+Es una expresión lógia que significa "y".
+nos sirve cuando debemos cumplir varias condiciones al mismo tiempo. Por ejemplo:
+Podemos ir al parque a andar en bicicileta si:
+Primera condición: Tenemos una bicicileta.
+Segunda condición: Sabemos andar en  bicicileta.
+Si las 2 se cumplen podemos ir.
+
+
+*`||`
+Es una expresión lógica que significa "o".
+Nos sirve cuando tenemos varias condiciones pero basta con cumplir una de ellas. Por ejemplo:
+Podemos entrar al parque de diversiones si:
+Primera condición: Eres hombre.
+Segunda condición: Eres mujer.
+Tercera condición: Eres niño
+Tercera condición: Eres niña
+
+
+* `!`
+Es una expresión lógica que nos permite "NEGAR" una sentencia. Por ejemplo:
+Es rojo.   (Si le colocamos "!" significa)   !Es rojo => No es rojo
