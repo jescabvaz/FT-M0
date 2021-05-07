@@ -1,0 +1,30 @@
+
+	* Variables
+    Una variable es un como una cajita en donde podemos guardar algo y cambiar por otra cosa 
+    las veces que queramos.
+    En este caso en una variable podemos guardar datos(letras, palabras, numeros, etc.)
+
+	* Strings
+    Un String es una cadena de texto, podemos verlo como una caja en donde podemos almacenar
+    letras, palabras o un conjunto de caracteres.
+
+	* Funciones (argumentos, `return`)
+        Una funcion es un pequeño programa que tiene instrucciones dentro y nos permite reutilizar
+        el código. Es decir: imaginemos que requerimos imprimir los nombres de todos nuestros amigos,
+        con una funcion podemos hacerlo sin necesidad de escribirlo uno por uno.
+
+	* Declaraciones `if`
+        Es un condicional que nos permite realizar una instrucción si cumplimos con la sentencia
+        dentro del if. Por ejemplo:
+        Si el niño hizo la tarea{
+            puede ir a jugar
+        }
+        si no ha hecho la tarea{
+            no puede salir a jugar.
+        }
+
+	* Valores booleanos (`true`, `false`)
+        Nos permite saber cuando algo es verdadero o falso
+        true = verdadero
+        false = falso.
+
