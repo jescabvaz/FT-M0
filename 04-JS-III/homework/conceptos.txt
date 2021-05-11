@@ -1,0 +1,5 @@
+Conceptos:
+Array
+Un array es un archivero el cual contiene varios cajones
+cada cajon es un espacio para un nuevo dato de cualquier tipo
+podemos guardar 1 dato por cada cajon, ademas podemos sacarlos y volver a meterlos.
