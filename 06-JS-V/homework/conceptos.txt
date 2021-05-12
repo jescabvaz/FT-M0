@@ -1,0 +1,8 @@
+prototype
+Son varias funciones que adopta un objeto/ instancias.
+pueden ser metodos por defecto y métodos que creamos especificamente para una Clase.
+Funciones para una clase.
+Todos las instancias que hagas adoptaran las funciones que hayas hecho para la clase.
+
+Constructors (de Clases)
+Es un tipo molde que tiene propiedades de un tipo de objetos.
