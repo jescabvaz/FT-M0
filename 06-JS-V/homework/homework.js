@@ -20,7 +20,12 @@ Usuario.prototype.saludar = function () {
 };
 
 return Usuario;
+//ES6    Class Usuario {
+  // constructor (opciones){    this.nombre = opciones.nombre }:
+  //saludar(){  return "hola mi nombre es " this.nombte}
+//}
 }
+
 
 function agregarMetodoPrototype(Constructor) {
   // Agrega un método al Constructor del `prototype`
@@ -79,7 +84,7 @@ function crearInstanciaPersona(nombre, apellido, edad, dir) {
   //Con esta función vamos a crear una nueva persona a partir de nuestro constructor de persona (creado en el ejercicio anterior)
   //Recibirá los valores "Juan", "Perez", 22, "Saavedra 123" para sus respectivas propiedades
   //Devolver la nueva persona creada
-  var  Persona1 = new Persona("Juan", "Perez", 22, "Saavedra 123");
+  var  Persona1 = new Persona(nombre, apellido, edad, dir);
   return Persona1;
 }
   
