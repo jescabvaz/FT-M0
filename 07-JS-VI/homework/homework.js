@@ -12,14 +12,14 @@ function mayuscula(nombre) {
 function invocarCallback(cb) {
   // Invoca al callback `cb`
   //Tu código:
-  cb(cb())
+  cb();
 }
 
 function operacionMatematica(n1, n2, cb) {
   //Vamos a recibir una función que realiza una operación matemática como callback junto con dos números.
   //Devolver el callback pasándole como argumentos los números recibidos.
   //Tu código:
-  return cb(cb(n1,n2))
+  return cb(n1,n2);
 }
 
 function sumarArray(numeros, cb) {
@@ -34,6 +34,12 @@ function sumarArray(numeros, cb) {
       return suma+elemento; },0);
        cb(suma);
 
+//        let suma = numeros.reduce( (acumulador, item) => {
+//         return acumulador + item
+// })
+
+// cb(suma)
+
 }
 
 function forEach(array, cb) {
@@ -42,7 +48,7 @@ function forEach(array, cb) {
   //Tu código:
     array.forEach(function(elemento){
       cb(elemento);
-    })
+    });
 }
 
 function map(array, cb) {
